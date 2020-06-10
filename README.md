@@ -1,6 +1,6 @@
 # ViBoard
 
-![image](https://github.com/csarssj/ARSW-ViBoard/blob/master/resources/Viboarrd.png)
+![image](https://github.com/csarssj/ARSW-ViBoard/blob/master/img/ViBoarrd.png)
 
 Comparte tu ídeas a traves de un tablero virtual colaborativo para escribir o dibujar en una pizarra virtual donde crear esquemas, compartir ideas, recopilar notas, etc.
 
@@ -19,25 +19,25 @@ A continuación se muestra una maqueta de la applicación:
 
 Contaremos con registro e inicio de sesión dentro de la applicación donde con solo llenar los campos el usuario podrá ingresar.
 
-![image](https://github.com/csarssj/ARSW-ViBoard/blob/master/resources/login.png)
+![image](https://github.com/csarssj/ARSW-ViBoard/blob/master/img/login.png)
 
 Los usuarios registrados  en el sistema podrán crear salas donde podran compartir el nombre de la sala y la contraseña asignada con sus compañeros.
 
-![image](https://github.com/csarssj/ARSW-ViBoard/blob/master/resources/create.png)
+![image](https://github.com/csarssj/ARSW-ViBoard/blob/master/img/create.png)
 
 Tambine podran ingresar a una sala simplemente con poner el nombre y la contraseña asignada.
 
-![image](https://github.com/csarssj/ARSW-ViBoard/blob/master/resources/login.png)
+![image](https://github.com/csarssj/ARSW-ViBoard/blob/master/img/login.png)
 
 Una vez el usuario ingresa a una sala, encontrara un tablero virtual en el cual podra escribir, dibujar, compartir imagenes y chatear a tiempo real con los 
 demás miembros de la reunión.
 
-![image](https://github.com/csarssj/ARSW-ViBoard/blob/master/resources/board.png)
+![image](https://github.com/csarssj/ARSW-ViBoard/blob/master/img/board.png)
 
 Si el grupo de trabajo ya concreto una idea o quiere tomar un receso tiene la opción de unirse a una videollamada con los demás miembros de la sala para charlar y hacer una 
 retroalimentación de lo hecho.
 
-![image](https://github.com/csarssj/ARSW-ViBoard/blob/master/resources/video.png)
+![image](https://github.com/csarssj/ARSW-ViBoard/blob/master/img/video.png)
 
 
 ### Valor agregado
