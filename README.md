@@ -61,46 +61,46 @@ ViBoard es una aplicación colaborativa que permite compartir, elaborar y expres
 grupos de trabajos. Permite compartir una pizarra, en la cual todo el equipo podrá realizar sus aportes en forma de dibujo, nota, texto o imágenes.
 
 ## Historias de usuario
-- Crear una sala  *COMO* Usuario *QUIERO* Crear una sala *PARA* poder realizar mis reuniones.
-- Criterios de aceptación:
-		- Al ingresar los datos se debe crear la sala.
-		- Al hacer clic se redirige a la página para crear la sala.
-		- La sala debe estar disponible para el resto de usuarios apenas se crea.
-		- Por sala no pueden haber más de 8 personas.
-- Ingresar a una sala *COMO* Usuario *QUIERO* Ingresar a una sala *PARA* poder realizar las reuniones de mi equipo.
-- Criterios de aceptación:
-		- Al hacer clic se redirige a la página para crear.
-		- Ingresar por medio del nombre y la contraseña de una sala.
-		- No es posible que el mismo usuario esté en diferentes salas.
+1. Crear una sala  *COMO* Usuario *QUIERO* Crear una sala *PARA* poder realizar mis reuniones.
+   - Criterios de aceptación:
+	 - Al ingresar los datos se debe crear la sala.
+	 - Al hacer clic se redirige a la página para crear la sala.
+	 - La sala debe estar disponible para el resto de usuarios apenas se crea.
+	 - Por sala no pueden haber más de 8 personas.
+2. Ingresar a una sala *COMO* Usuario *QUIERO* Ingresar a una sala *PARA* poder realizar las reuniones de mi equipo.
+   - Criterios de aceptación:
+	 - Al hacer clic se redirige a la página para crear.
+	 - Ingresar por medio del nombre y la contraseña de una sala.
+	 - No es posible que el mismo usuario esté en diferentes salas.
 		
-- Dibujar en el tablero: *COMO* Usuario *QUIERO* Dibujar en el tablero *PARA* poder explicar y plantear ideas. 
-- Criterios de aceptación:
-		- Tiene que ser en tiempo real.
-		- Al hacer clic poder dibujar en el tablero.
-		- Se podrá editar el color y el tamaño del lápiz.
-		- Se podrá borrar lo dibujado.
-- Escribir en el tablero *COMO* Usuario *QUIERO* Escribir en el tablero *PARA* poder compartir ideas concretas con mi equipo.
-- Criterios de aceptación:
-		- Al hacer clic poder escribir en el tablero.
-		- Se podrá editar el color y el tamaño de la letra.
-		- Se podrá borrar lo escrito.
-		- Tiene que ser en tiempo real.
-- Adjuntar imágenes en el tablero *COMO* Usuario *QUIERO* Adjuntar imágenes en el tablero *PARA* poder mostrar ilustraciones de mis ideas.
-- Criterios de aceptación:
-		- Debe aparecer el icono en la barra inferior de la pantalla.
-		- Tienen que ser importadas del pc del usuario.
-		- Se pueden mover a cualquier lugar del tablero. 
-- Adjuntar notas en el tablero *COMO* Usuario *QUIERO* Adjuntar notas en el tablero *PARA* poder mostrar ideas relevantes.
-- Criterios de aceptación:
-		- Debe aparecer el icono en la barra inferior de la pantalla.
-		- Al hacer clic se debe agregar una nota en la pantalla.
-		- Se puede escribir encima de las notas.
-		- Se pueden mover a cualquier lugar del tablero.
+3. Dibujar en el tablero: *COMO* Usuario *QUIERO* Dibujar en el tablero *PARA* poder explicar y plantear ideas. 
+   - Criterios de aceptación:
+	 - Tiene que ser en tiempo real.
+ 	 - Al hacer clic poder dibujar en el tablero.
+	 - Se podrá editar el color y el tamaño del lápiz.
+	 - Se podrá borrar lo dibujado.
+4. Escribir en el tablero *COMO* Usuario *QUIERO* Escribir en el tablero *PARA* poder compartir ideas concretas con mi equipo.
+   - Criterios de aceptación:
+	 - Al hacer clic poder escribir en el tablero.
+	 - Se podrá editar el color y el tamaño de la letra.
+	 - Se podrá borrar lo escrito.
+	 - Tiene que ser en tiempo real.
+5. Adjuntar imágenes en el tablero *COMO* Usuario *QUIERO* Adjuntar imágenes en el tablero *PARA* poder mostrar ilustraciones de mis ideas.
+   - Criterios de aceptación:
+	 - Debe aparecer el icono en la barra inferior de la pantalla.
+	 - Tienen que ser importadas del pc del usuario.
+	 - Se pueden mover a cualquier lugar del tablero. 
+6. Adjuntar notas en el tablero *COMO* Usuario *QUIERO* Adjuntar notas en el tablero *PARA* poder mostrar ideas relevantes.
+   - Criterios de aceptación:
+	 - Debe aparecer el icono en la barra inferior de la pantalla.
+	 - Al hacer clic se debe agregar una nota en la pantalla.
+	 - Se puede escribir encima de las notas.
+	 - Se pueden mover a cualquier lugar del tablero.
 		
-- Conversar en el Chat online *COMO* Usuario *QUIERO* Conversar en el chat *PARA* establecer comunicación con los demás miembros del equipo.
-- Criterios de aceptación:
-		- Mostrar el chat a tiempo real en pantalla.
-		- Enviar mensajes a tiempo real.
+7. Conversar en el Chat online *COMO* Usuario *QUIERO* Conversar en el chat *PARA* establecer comunicación con los demás miembros del equipo.
+   - Criterios de aceptación:
+	 - Mostrar el chat a tiempo real en pantalla.
+	 - Enviar mensajes a tiempo real.
 ## Construido en
 
 * [Maven](https://maven.apache.org/) - Dependency Management
