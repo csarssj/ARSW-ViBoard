@@ -7,7 +7,7 @@ Comparte tu ideas a través de un tablero virtual colaborativo para escribir o d
 ## Descripcion
 
 ViBoard es una sencilla herramienta de colaboración en línea que permite crear grupos virtuales, que registrándose o no el usuario  tiene la posibilidad de crear  una sala,
-a la que luego es posible permitir que sus compañeros de equipo ingresen. Sus servicios incluyen una pizarra digital que admite textos y gráficos (pueden dibujarse por medio de figuras geométricas al estilo Paint de Windows),
+a la que luego es posible permitir que sus compañeros de equipo ingresen. Sus servicios incluyen una pizarra digital que admite textos 
 una sala de chat basada en texto, una herramienta de gestión y alojamiento de imágenes.
 
 ¿En qué casos es útil ViBoard ?
