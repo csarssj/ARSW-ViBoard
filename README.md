@@ -2,13 +2,13 @@
 
 ![image](https://github.com/csarssj/ARSW-ViBoard/blob/master/img/ViBoarrd.png)
 
-Comparte tu ideas a través de un tablero virtual colaborativo para escribir o dibujar en una pizarra virtual donde crear esquemas, compartir ideas, recopilar notas, etc.
+Comparte tu ideas a través de un tablero virtual colaborativo para escribir o dibujar en una pizarra virtual donde crear y compartir ideas, recopilar notas, etc.
 
 ## Descripcion
 
 ViBoard es una sencilla herramienta de colaboración en línea que permite crear grupos virtuales, que registrándose o no el usuario  tiene la posibilidad de crear  una sala,
 a la que luego es posible permitir que sus compañeros de equipo ingresen. Sus servicios incluyen una pizarra digital que admite textos y gráficos (pueden dibujarse por medio de figuras geométricas al estilo Paint de Windows),
-una sala de chat basada en texto, una herramienta de gestión y alojamiento de imágenes, y lo mejor: la capacidad de conversar con los compañeros a través de audio en tiempo real.
+una sala de chat basada en texto, una herramienta de gestión y alojamiento de imágenes.
 
 ¿En qué casos es útil ViBoard ?
 
@@ -64,7 +64,6 @@ grupos de trabajos. Permite compartir una pizarra, en la cual todo el equipo pod
 1. Crear una sala  *COMO* Usuario *QUIERO* Crear una sala *PARA* poder realizar mis reuniones.
    - Criterios de aceptación:
 	 - Al ingresar los datos se debe crear la sala.
-	 - Al hacer clic se redirige a la página para crear la sala.
 	 - La sala debe estar disponible para el resto de usuarios apenas se crea.
 	 - Por sala no pueden haber más de 8 personas.
 2. Ingresar a una sala *COMO* Usuario *QUIERO* Ingresar a una sala *PARA* poder realizar las reuniones de mi equipo.
@@ -95,15 +94,20 @@ grupos de trabajos. Permite compartir una pizarra, en la cual todo el equipo pod
 	 - Debe aparecer el icono en la barra inferior de la pantalla.
 	 - Al hacer clic se debe agregar una nota en la pantalla.
 	 - Se puede escribir encima de las notas.
-	 - Se pueden mover a cualquier lugar del tablero.
-		
+	 - Se pueden mover a cualquier lugar del tablero.		
 7. Conversar en el Chat online *COMO* Usuario *QUIERO* Conversar en el chat *PARA* establecer comunicación con los demás miembros del equipo.
    - Criterios de aceptación:
 	 - Mostrar el chat a tiempo real en pantalla.
 	 - Enviar mensajes a tiempo real.
-## Construido en
-
-* [Maven](https://maven.apache.org/) - Dependency Management
+8. Organizar futuras reuniones *COMO* Usuario *QUIERO* Organizar futuras reuniones *PARA* planear con mi equipo la hora y el día específico de una futura reunión.
+   - Criterios de aceptación:
+	 - Edición a tiempo real
+	 - Permite guardar el horario
+9. Crear grupos de trabajo *COMO* Usuario *QUIERO* Crear grupos de trabajo *PARA*  poder añadir a mis compañeros de equipo como amigos y formar grupos de trabajo dentro de la app.
+   - Criterios de aceptación:
+	 - Edición a tiempo real
+	 - Permite agregar y eliminar personas
+	 - Máximo 8 personas por grupo
 
 
 ## Control de versiones 
@@ -114,6 +118,3 @@ grupos de trabajos. Permite compartir una pizarra, en la cual todo el equipo pod
 
 [César González](https://github.com/csarssj) 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
