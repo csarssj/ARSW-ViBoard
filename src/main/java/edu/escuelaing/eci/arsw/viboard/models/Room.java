@@ -15,7 +15,7 @@ public class Room {
 	private Long id;
 	private String pass;
 	private String name;
-
+	private static final int capacity = 8;
 	private ArrayList<User> users; 
 	
 
@@ -42,6 +42,9 @@ public class Room {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public int getCapacity() {
+		return capacity;
 	}
 	
 }
