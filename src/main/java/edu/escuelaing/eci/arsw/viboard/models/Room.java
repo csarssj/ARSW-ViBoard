@@ -15,9 +15,17 @@ public class Room {
 	private Long id;
 	private String pass;
 	private String name;
+	private User creator;
 	private static final int capacity = 8;
 	private ArrayList<User> users; 
 	
+	public Room() {}
+	
+	public Room(User creator,String name,ArrayList<User> users) {
+		this.creator = creator;
+		this.name = name;
+		this.users = users;
+	}
 
 	public Long getId() {
 		return id;
@@ -45,6 +53,12 @@ public class Room {
 	}
 	public int getCapacity() {
 		return capacity;
+	}
+	public User getCreator() {
+		return creator;
+	}
+	public void setCreator(User creator) {
+		this.creator = creator;
 	}
 	
 }

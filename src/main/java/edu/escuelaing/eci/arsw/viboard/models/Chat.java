@@ -6,6 +6,8 @@ import javax.persistence.Entity;
 public class Chat {
 	private String message;
 	private String sender;
+	
+	
 	public String getMessage() {
 		return message;
 	}
