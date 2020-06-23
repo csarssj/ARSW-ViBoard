@@ -1,15 +1,16 @@
 package edu.escuelaing.eci.arsw.viboard.persistence.impl;
 
 import java.util.ArrayList;
+import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
 import edu.escuelaing.eci.arsw.viboard.models.Room;
 import edu.escuelaing.eci.arsw.viboard.models.User;
-import edu.escuelaing.eci.arsw.viboard.persistence.ViBoardPersistence;
+import edu.escuelaing.eci.arsw.viboard.persistence.RoomPersistence;
 
 @Service
-public class ViBoardPersistenceImpl implements ViBoardPersistence {
+public class RoomPersistenceImpl implements RoomPersistence{
 
 	@Override
 	public void newRoom(Room room) {
@@ -52,5 +53,6 @@ public class ViBoardPersistenceImpl implements ViBoardPersistence {
 		// TODO Auto-generated method stub
 		
 	}
+
 
 }

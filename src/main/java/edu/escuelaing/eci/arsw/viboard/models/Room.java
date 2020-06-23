@@ -24,6 +24,8 @@ public class Room {
 	public Room(User creator,String name,ArrayList<User> users) {
 		this.creator = creator;
 		this.name = name;
+		this.users = new ArrayList<User>();
+		this.users.add(creator);
 		this.users = users;
 	}
 

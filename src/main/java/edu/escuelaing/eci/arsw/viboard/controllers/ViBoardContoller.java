@@ -2,23 +2,25 @@ package edu.escuelaing.eci.arsw.viboard.controllers;
 
 import java.util.ArrayList;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import edu.escuelaing.eci.arsw.viboard.models.Room;
 import edu.escuelaing.eci.arsw.viboard.models.User;
-import edu.escuelaing.eci.arsw.viboard.services.ViBoardServices;
+
 
 @RestController
 @RequestMapping(value= "/rooms")
 public class ViBoardContoller {
 	
-	private ViBoardServices service;
+	@Autowired
+	
 	
 	@RequestMapping(method = RequestMethod.POST)
 	public void newRoom(Room room) {
-
+		
 	}
 	
 	@RequestMapping(method = RequestMethod.GET, path = "/rooms/{roomId}")
