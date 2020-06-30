@@ -1,0 +1,15 @@
+
+.MessageComponent{
+    margin-left: -1px;
+    background-color: white;
+    height: 77px;
+    margin-top: -15px;
+    border-radius: 5px;
+    width: 330px;
+}
+
+p.p2 {
+  background-color: #DDDDDD;
+  height: 150px;
+  width: 150px;
+}

@@ -1,28 +1,28 @@
-/* App.css */
+.App {
+  text-align: center;
+}
 
-body {
-  font-family: 'Roboto Condensed', serif;
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
 }
-.main {
-  display: flex;
-  justify-content: center;
-}
-.color-guide {
-  margin: 20px 40px;
-}
-h5 {
-  margin-bottom: 10px;
-}
-.user {
-  padding: 7px 15px;
-  border-radius: 4px;
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
   color: white;
-  font-size: 13px;
-  font-weight: bold;
-  background: #EE92C2;
-  margin: 10px 0;
 }
-.guest {
-  background: #F0C987;
-  color: white;
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }

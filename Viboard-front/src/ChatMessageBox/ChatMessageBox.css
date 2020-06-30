@@ -1,0 +1,36 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	font-family:Arial;
+	background-color: cornflowerblue
+}
+#chat{
+	    padding:10px;
+	    background:#fff;
+	    height:470px;
+	    width:330px;
+	    overflow:auto;
+}
+
+#chat li{
+	padding:10px 30px;
+}
+#chat h2,#chat h3{
+	display:inline-block;
+	font-size:10px;
+	font-weight:normal;
+}
+
+#chat .message{
+		color:#fff;
+		max-width:90%;
+}
+
+#chat .you .message{
+	background-color:#3f51b5;
+}
+
+#chat .others .message{
+	background-color:#6fbced;
+}
